@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+git add .
+git commit -m "AirBnB v2"
+git push
+
