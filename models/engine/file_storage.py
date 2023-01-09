@@ -19,6 +19,7 @@ class FileStorage:
                     new__objects[key] = value
 
             FileStorage.__objects = new__objects
+            FileStorage.save(self)
 
     def all(self, cls=None):
         """Returns a dictionary of models currently in storage"""
